@@ -1,17 +1,17 @@
 const calculator = () => {
-  add = (a, b) => {
+  const add = (a, b) => {
     return a + b
   },
 
-  subtract = (a, b) => {
+  const subtract = (a, b) => {
     return a - b
   },
 
-  multiply = (a, b) => {
+  const multiply = (a, b) => {
     return a * b
   },
 
-  divide = (a, b) => {
+  const divide = (a, b) => {
     return a / b
   } 
 
