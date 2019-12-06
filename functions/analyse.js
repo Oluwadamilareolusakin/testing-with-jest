@@ -13,3 +13,5 @@ const analyse = (array) => {
     min, max, average, length
   }
 }
+
+module.exports = analyse;

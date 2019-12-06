@@ -4,3 +4,5 @@ const capitalize = (string) => {
   string = string.join('');
   return string;
 }
+
+module.exports = capitalize;
