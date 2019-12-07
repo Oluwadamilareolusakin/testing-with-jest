@@ -1,6 +1,5 @@
 const convertToNumber = (char) => char.charCodeAt(0);
 const convertToChar = (num) => String.fromCharCode(num);
-
 const caesar = (string, key) => {
   string = string.split('');
   let nums = [];
@@ -12,15 +11,17 @@ const caesar = (string, key) => {
   })
 
   nums.forEach((num) => {
-    let newNum = num + key;
-
+    let newNum = num;
+    
     if (num >= 97 && num <= 122){
+      newNum += key;
       if (newNum > 122){
         newNum = (newNum % 122) + 96;
       }
     }
 
     if (num >= 65 && num <= 90){
+      newNum += key;
       if (newNum > 90){
         newNum = (newNum % 90) + 64
       } 
