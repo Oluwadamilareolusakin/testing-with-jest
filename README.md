@@ -5,7 +5,7 @@ Practicing my JEST testing skills with simle function tests.
 ![screenshot](./src/images/2.png)
 
 # What it does
-It write tests to check that the following functions work properly
+It tests to check that the following functions work properly
 * `capitalize(string)` takes a string and returns that string with the first character capitalized.
 
 * `reverseString(string)` takes a string and returns it reversed.
